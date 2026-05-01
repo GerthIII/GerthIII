@@ -18,14 +18,14 @@
   <rect width="100%" height="100%" fill="url(#bg-pattern)"/>
 
   <!-- Header Text -->
-  <text x="50" y="80" class="title">Hi, I'm Glen James Gerth III 👋</text>
+  <text x="50" y="80" class="title">Hi, I'm Glen </text>
   <text x="50" y="115" class="subtitle">Full Stack Developer · Tokyo, Japan</text>
 
   <!-- Divider -->
   <line x1="50" y1="150" x2="750" y2="150" stroke="#eaecef" stroke-width="1" />
 
   <!-- Tools Section -->
-  <text x="50" y="185" class="section-title">TOOLS</text>
+  <text x="50" y="185" class="section-title">Tech Stack</text>
 
   <!-- Pills Row 1 -->
   <g transform="translate(50, 205)">
