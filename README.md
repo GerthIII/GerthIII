@@ -1,67 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
-  <defs>
-    <style>
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 38px; font-weight: 600; fill: #24292e; }
-      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 20px; fill: #586069; }
-      .section-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #8b949e; letter-spacing: 1.5px; }
-      .pill-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; fill: #24292e; }
-    </style>
-    <!-- Subtle intricate geometric diamond pattern -->
-    <pattern id="bg-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M0 20 L20 0 L40 20 L20 40 Z" fill="none" stroke="#f0f2f5" stroke-width="1"/>
-      <path d="M20 0 L20 40 M0 20 L40 20" fill="none" stroke="#f4f6f8" stroke-width="0.5"/>
-    </pattern>
-  </defs>
+<div style="background-color: #fcfcfc; background-image: url('https://www.transparenttextures.com/patterns/diagmonds-light.png'); padding: 50px 40px; border-radius: 10px; border: 1px solid #eaeaea; font-family: sans-serif;">
+  
+  <h1 style="border-bottom: none; margin-bottom: 5px; color: #24292e;">Hi, I'm Glen James Gerth III 👋</h1>
+  <p style="font-size: 18px; color: #586069; margin-top: 0;">Full Stack Developer · Tokyo, Japan</p>
 
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#ffffff"/>
-  <rect width="100%" height="100%" fill="url(#bg-pattern)"/>
+  <hr style="border: none; border-top: 1px solid #e1e4e8; margin: 25px 0;">
 
-  <!-- Header Text -->
-  <text x="50" y="80" class="title">Hi, I'm Glen James Gerth III 👋</text>
-  <text x="50" y="115" class="subtitle">Full Stack Developer · Tokyo, Japan</text>
+  <p style="font-size: 12px; font-weight: 600; color: #8b949e; letter-spacing: 1px; text-transform: uppercase;">Tools</p>
 
-  <!-- Divider -->
-  <line x1="50" y1="150" x2="750" y2="150" stroke="#eaecef" stroke-width="1" />
-
-  <!-- Tools Section -->
-  <text x="50" y="185" class="section-title">TOOLS</text>
-
-  <!-- Pills Row 1 -->
-  <g transform="translate(50, 205)">
-    <!-- Ruby -->
-    <rect width="60" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="30" y="20" class="pill-text" text-anchor="middle">Ruby</text>
-
-    <!-- JavaScript -->
-    <rect x="70" width="95" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="117.5" y="20" class="pill-text" text-anchor="middle">JavaScript</text>
-
-    <!-- HTML · CSS -->
-    <rect x="175" width="105" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="227.5" y="20" class="pill-text" text-anchor="middle">HTML · CSS</text>
-
-    <!-- Ruby on Rails -->
-    <rect x="290" width="120" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="350" y="20" class="pill-text" text-anchor="middle">Ruby on Rails</text>
-
-    <!-- Stimulus.js -->
-    <rect x="420" width="100" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="470" y="20" class="pill-text" text-anchor="middle">Stimulus.js</text>
-  </g>
-
-  <!-- Pills Row 2 -->
-  <g transform="translate(50, 245)">
-    <!-- SQL -->
-    <rect width="50" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="25" y="20" class="pill-text" text-anchor="middle">SQL</text>
-
-    <!-- PostgreSQL -->
-    <rect x="60" width="100" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="110" y="20" class="pill-text" text-anchor="middle">PostgreSQL</text>
-
-    <!-- Heroku -->
-    <rect x="170" width="75" height="30" rx="5" fill="#fdfdfd" stroke="#d0d7de"/>
-    <text x="207.5" y="20" class="pill-text" text-anchor="middle">Heroku</text>
-  </g>
-</svg>
+  <p>
+    <img src="https://img.shields.io/badge/Ruby-F3F3F3?style=flat&logo=ruby&logoColor=CC342D&labelColor=F3F3F3&color=F3F3F3" alt="Ruby" />
+    <img src="https://img.shields.io/badge/JavaScript-F3F3F3?style=flat&logo=javascript&logoColor=F7DF1E&labelColor=F3F3F3&color=F3F3F3" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/HTML%20/%20CSS-F3F3F3?style=flat&logo=html5&logoColor=E34F26&labelColor=F3F3F3&color=F3F3F3" alt="HTML / CSS" />
+    <img src="https://img.shields.io/badge/Ruby_on_Rails-F3F3F3?style=flat&logo=rubyonrails&logoColor=CC0000&labelColor=F3F3F3&color=F3F3F3" alt="Ruby on Rails" />
+    <img src="https://img.shields.io/badge/Stimulus.js-F3F3F3?style=flat&logo=stimulus&logoColor=12B7C4&labelColor=F3F3F3&color=F3F3F3" alt="Stimulus" />
+    <img src="https://img.shields.io/badge/SQL-F3F3F3?style=flat&logo=databricks&logoColor=FF3621&labelColor=F3F3F3&color=F3F3F3" alt="SQL" />
+    <img src="https://img.shields.io/badge/PostgreSQL-F3F3F3?style=flat&logo=postgresql&logoColor=316192&labelColor=F3F3F3&color=F3F3F3" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/Heroku-F3F3F3?style=flat&logo=heroku&logoColor=430098&labelColor=F3F3F3&color=F3F3F3" alt="Heroku" />
+  </p>
+  
+</div>
